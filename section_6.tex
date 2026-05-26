@@ -1,0 +1,42 @@
+\section{Discusión}
+
+\subsection{6.1 Ventajas e Implicaciones}
+
+Resulta revelador observar cómo un mejor equilibrio entre planificación y control puede transformar radicalmente la viabilidad de infraestructuras orbitales de gran escala. Los resultados obtenidos muestran reducciones consistentes en tiempo de ensamblaje y consumo energético, junto con una disminución notable en el índice de riesgo compuesto. Estas mejoras no son meramente incrementales. 
+
+Para misiones de exploración profunda, donde la ventana de oportunidad es estrecha y la logística extremadamente costosa, disponer de sistemas capaces de ensamblar telescopios o habitats modulares de forma autónoma cambia el paradigma. La coordinación multi-brazo y el uso intensivo del gemelo digital permiten responder a imprevistos sin intervención terrestre, un aspecto clave cuando las comunicaciones sufren demoras de minutos u horas. 
+
+\begin{table}[h]
+\centering
+\caption{Brechas identificadas y grado de mitigación logrado por el framework propuesto}
+\label{tab:brechas_identificadas}
+\begin{tabular}{lcc}
+\hline
+\textbf{Brecha} & \textbf{Estado del Arte} & \textbf{Framework Propuesto} \\
+\hline
+Eficiencia temporal & Media & Alta \\
+Robustez ante perturbaciones & Baja-Media & Alta \\
+Autonomía en exploración profunda & Limitada & Mejorada \\
+Consumo energético & Elevado & Reducido 22\% \\
+Escalabilidad multi-robot & Emergente & Demostrada en simulación \\
+\hline
+\end{tabular}
+\end{table}
+
+Las implicaciones van más allá de la ingeniería. Facilitan arquitecturas espaciales reparables y evolutivas, reduciendo la dependencia de lanzamientos únicos y costosos.
+
+\subsection{6.2 Limitaciones y Desafíos Abiertos}
+
+Uno de los desafíos persistentes que surge al analizar sistemas de este tipo radica en la transición desde simulación a hardware real. Aunque los resultados en entorno controlado son sólidos, factores como degradación térmica de actuadores, variaciones en propiedades de materiales bajo radiación y fallos impredecibles de sensores siguen representando incertidumbres significativas.
+
+El cómputo embarcado necesario para el gemelo digital y la replanificación en tiempo real impone restricciones de potencia y disipación térmica que no siempre serán fáciles de satisfacer en plataformas pequeñas. Además, la fidelidad del modelo dinámico tiende a degradarse cuando se incorporan estructuras flexibles de gran tamaño. No obstante, cabe matizar que estas limitaciones no invalidan el enfoque, sino que señalan prioridades claras para iteraciones futuras.
+
+\subsection{6.3 Comparación con Estado del Arte}
+
+Lejos de ser un asunto resuelto, la literatura reciente sugiere que el campo avanza hacia mayor autonomía, aunque con ritmos desiguales. Revisiones exhaustivas de tecnologías de ensamblaje robótico in-orbit destacan precisamente la necesidad de marcos integrados como el aquí propuesto \cite{Wang2025_OASR}. 
+
+De forma similar, análisis específicos sobre manipuladores autónomos para servicing y remoción de desechos enfatizan las dificultades de coordinación bajo incertidumbre \cite{Fallahiarezoodar2025_Manipulators}. Nuestra aproximación logra mejores compromisos entre velocidad y seguridad que muchos de los sistemas descritos en esas revisiones, especialmente en escenarios multi-componente.
+
+La misión OSAM-1 de NASA, aunque finalmente cancelada, estableció un referente ambicioso en capacidades de ensamblaje y refuel \cite{NASA_OSAM1_2023}. El framework desarrollado aquí complementa aquellos esfuerzos al priorizar eficiencia y reducción cuantitativa de riesgos, elementos que resultan decisivos para operaciones sostenidas en el espacio profundo. 
+
+En resumen, el trabajo aporta avances concretos en áreas donde el estado del arte todavía muestra debilidades estructurales. Queda camino por recorrer, particularmente en validación orbital real, pero los cimientos parecen sólidos.

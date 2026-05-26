@@ -1,0 +1,23 @@
+{
+    "fig1.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, sin sombras, sin gradientes, sin texto incrustado. Timeline horizontal clara mostrando evolución cronológica de misiones OOS/OIRA: ETS-VII (1997), Canadarm2 (2001), OSAM-1 (en desarrollo), con iconos simplificados de satélites, brazos robóticos y estructuras modulares grandes. Flechas de progreso limpias, etiquetas de años en gris oscuro, estilo IEEE técnico preciso y profesional."
+    },
+    "fig2.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, sin sombras, sin gradientes, sin texto incrustado. Comparación de tres arquitecturas multi-robot para ensamblaje in-orbit: 1) Mono-brazo clásico (brazo único grande), 2) Dual-brazo cooperativo (dos brazos trabajando en estructura modular), 3) Enjambre distribuido (múltiples robots pequeños coordinados). Diagramas lado a lado con flechas de interacción, iconos simplificados de satélites y paneles modulares, líneas limpias y etiquetas técnicas en gris oscuro fuera del área principal del diagrama, estilo IEEE profesional y preciso."
+    },
+    "fig3.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, sin sombras, sin gradientes, sin texto incrustado. Diagrama de bloques del framework completo de ensamblaje robótico in-orbit: bloques rectangulares conectados por flechas bidireccionales mostrando Percepción (sensores), Gemelo Digital (nube simulada), Planificación de Secuencias, Control Híbrido, y Actuadores. Incluir iconos simplificados de brazos robóticos, estructuras modulares y satélites. Flujo claro de izquierda a derecha con bucles de retroalimentación, estilo IEEE técnico y profesional."
+    },
+    "fig4.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, sin sombras, sin gradientes, sin texto incrustado. Gráficos comparativos de líneas múltiples: dos curvas superiores mostrando tiempo acumulado (mono-brazo vs dual-brazo) y dos curvas inferiores para consumo energético acumulado. Ejes claros con unidades, leyenda simple con líneas azul cobalto y gris oscuro, marcadores discretos en puntos clave, estilo IEEE técnico preciso y profesional para resultados de simulación."
+    },
+    "fig5.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, sin sombras, sin gradientes, sin texto incrustado. Gráficos combinados: barras agrupadas mostrando reducción porcentual de tiempo de ensamblaje (izquierda) y curvas de probabilidad de riesgo (derecha) para configuraciones mono-brazo vs dual-brazo a diferentes niveles de perturbación. Ejes técnicos claros, leyenda sencilla, barras en azul cobalto y gris, líneas de tendencia precisas, estilo IEEE profesional y limpio para resultados cuantitativos."
+    },
+    "fig6.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, sin sombras, sin gradientes, sin texto incrustado. Diagrama radial o de radar chart comparativo mostrando brechas y fortalezas: ejes para Eficiencia, Robustez, Autonomía, Consumo Energético y Escalabilidad. Dos polígonos superpuestos (Estado del Arte en gris, Framework Propuesto en azul cobalto) para visualización clara de mejoras, estilo IEEE técnico preciso y profesional."
+    },
+    "fig7.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, sin sombras, sin gradientes, sin texto incrustado. Visión conceptual de roadmap futuro: timeline horizontal con hitos desde framework actual (2026) hacia sistemas multi-robot autónomos (2030+) y manufactura in-situ para exploración profunda. Iconos simplificados de robots, estructuras orbitales grandes, telescopios y bases lunares/marcianas conectados por flechas de progreso, estilo IEEE técnico preciso y profesional."
+    }
+}

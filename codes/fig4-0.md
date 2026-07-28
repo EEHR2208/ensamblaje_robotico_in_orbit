@@ -1,0 +1,23 @@
+```text
+Diagrama técnico vectorial en 2D, gráfico científico de resultados de simulación para publicación aeroespacial en formato estándar IEEE, diseño plano (flat design), minimalista, sobre fondo blanco puro. Composición técnica organizada como un panel compuesto por dos sub-gráficos independientes alineados e integrados verticalmente, compartiendo un único eje X horizontal en la base. Paleta de colores estrictamente científica: azul cobalto (#0047AB) para los datos de la propuesta principal y gris oscuro técnico (#4A4A4A) para los datos de la línea base de control, líneas de rejilla y ejes. Todo el texto incrustado, etiquetas y números están renderizados en tipografía técnica Sans-Serif limpia, nítida y perfectamente legible.
+
+Disposición y elementos de los sub-gráficos (Texto en español):
+1. Eje X común (en la base del panel inferior): Rotulado como "Progreso del Ensamblaje (%)" con marcas de graduación del 0% al 100%.
+2. Sub-gráfico Superior - Rendimiento Temporal: Eje Y vertical rotulado como "Tiempo Acumulado (s)". Contiene dos curvas nítidas que inician en el origen. La línea en gris oscuro técnico (#4A4A4A) representa la configuración "Mono-brazo", mostrando una pendiente constante ascendente que se extiende ampliamente hacia la derecha. La línea en azul cobalto (#0047AB) representa la configuración "Dual-brazo Cooperativo", mostrando una pendiente más pronunciada y optimizada que finaliza de forma temprana a la mitad de la extensión del eje X.
+3. Sub-gráfico Inferior - Rendimiento Energético: Eje Y vertical rotulado como "Consumo Energético (kJ)". Contiene dos curvas nítidas. La línea gris (#4A4A4A) de la configuración "Mono-brazo" muestra un comportamiento escalonado con pequeñas fluctuaciones e irregularidades que denotan correcciones reactivas severas. La línea azul cobalto (#0047AB) de la configuración "Dual-brazo Cooperativo" muestra una trayectoria suave, continua y eficiente, finalizando notablemente por debajo de la línea gris (un 22% menos de altura total).
+
+Detalles de control de estilo: Cuadro de leyenda técnico e industrial ubicado de manera limpia en la esquina superior derecha del panel superior, detallando los códigos de color para "Mono-brazo (Gris)" y "Dual-brazo (Azul)". Una rejilla fina, discontinua y tenue (grid técnico) de color gris muy claro estructura el fondo de ambos gráficos. Renderizado vectorial nítido de alta precisión, líneas geométricas perfectas, sin sombras, sin degradados, aspecto formal de análisis de datos de ingeniería aeroespacial.
+
+```
+
+```text
+2D technical vector diagram, scientific simulation results plot for aerospace publication in standard IEEE style, flat design, minimalist, on a pure white background. Technical composition organized as a composite panel with two independent sub-plots vertically stacked and aligned, sharing a single horizontal X-axis at the base. Strictly scientific color palette: cobalt blue (#0047AB) for the main proposed framework data and technical dark gray (#4A4A4A) for control baseline data, grid lines, and axes. All embedded text, labels, and numbers are rendered in a clean, crisp, and perfectly legible Sans-Serif technical typography.
+
+Sub-plot layout and elements (English text labels):
+1. Common X-axis (at the base of the lower plot): Labeled as "Assembly Progress (%)" with tick marks from 0% to 100%.
+2. Upper Sub-plot - Time Performance: Vertical Y-axis labeled as "Accumulated Time (s)". It contains two sharp curves starting at the origin. The technical dark gray line (#4A4A4A) represents the "Single-arm" configuration, displaying a prolonged steady upward slope extending far to the right. The cobalt blue line (#0047AB) represents the "Cooperative Dual-arm" configuration, displaying a steeper, optimized slope that terminates early at half the horizontal extension of the axis.
+3. Lower Sub-plot - Energy Performance: Vertical Y-axis labeled as "Energy Consumption (kJ)". It contains two sharp curves. The gray line (#4A4A4A) for the "Single-arm" configuration shows a stepped behavior with small fluctuations indicating harsh reactive corrections. The cobalt blue line (#0047AB) for the "Cooperative Dual-arm" configuration shows a smooth, continuous, and efficient trajectory, terminating significantly lower than the gray line (22% less in overall height).
+
+Style control details: A clean industrial technical legend box located in the upper right corner of the top sub-plot, detailing color codes for "Single-arm (Gray)" and "Dual-arm (Blue)". A fine, dashed, and faint background grid in a very light gray structures both plots. Sharp high-precision vector rendering, perfect geometric lines, no shadows, no gradients, formal aerospace engineering data analysis appearance.
+
+```

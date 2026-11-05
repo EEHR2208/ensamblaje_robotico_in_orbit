@@ -14,20 +14,23 @@ Avanzando en el tiempo, proyectos más ambiciosos como OSAM-1 de NASA representa
 
 Otras plataformas, como Canadarm2 y Dextre en la Estación Espacial Internacional, han acumulado miles de horas de operación real, ofreciendo datos valiosos sobre manipulación prolongada. No obstante, cabe matizar que estos sistemas dependen fuertemente de control desde Tierra o tripulación, lo que reduce su aplicabilidad directa a misiones de exploración profunda donde la comunicación es intermitente o inexistente.
 
-\begin{table}[h]
-\centering
-\caption{Especificaciones comparativas de brazos robóticos espaciales representativos}
+% Requiere únicamente \usepackage{booktabs} en el preámbulo
+
+\begin{table}[!t]
+\caption{Especificaciones Comparativas de Brazos Robóticos Espaciales Representativos}
 \label{tab:especificaciones_brazos}
-\begin{tabular}{lcccc}
-\hline
-\textbf{Sistema} & \textbf{Longitud} & \textbf{Grados de Libertad} & \textbf{Carga Máx. (kg)} & \textbf{Año} \\
-\hline
-ETS-VII Arm     & 2 m      & 6 & 10   & 1997 \\
-Canadarm2       & 17 m     & 7 & 116000 & 2001 \\
-Dextre          & 3.5 m    & 7 & 600  & 2011 \\
-Prototipos OIRA & Variable & 6-8 & 50-500 & 2023-2025 \\
-\hline
-\end{tabular}
+\centering
+\footnotesize
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}l c c c c@{}}
+\toprule
+\textbf{Sistema} & \textbf{Longitud} & \shortstack{\textbf{Grados de}\\\textbf{Libertad}} & \shortstack{\textbf{Carga}\\\textbf{Máx. (kg)}} & \textbf{Año} \\
+\midrule
+ETS-VII Arm      & 2 m      & 6    & 10      & 1997 \\
+Canadarm2        & 17 m     & 7    & 116,000 & 2001 \\
+Dextre           & 3.5 m    & 7    & 600     & 2011 \\
+\shortstack[l]{Prototipos\\OIRA} & Variable & 6--8 & 50--500 & 2023--2025 \\
+\bottomrule
+\end{tabular*}
 \end{table}
 
 \subsection{2.3 Revisiones Recientes y Tendencias}

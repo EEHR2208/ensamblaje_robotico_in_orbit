@@ -12,19 +12,20 @@ Uno de los desafíos persistentes que surge al analizar ensamblajes complejos ra
 
 Se parte de una representación gráfica del ensamblaje objetivo donde los nodos representan componentes y los arcos indican dependencias geométricas y de estabilidad. Un algoritmo genético modificado, inspirado en trabajos previos de planificación de secuencias \cite{Timmermann2024_Assembly}, optimiza simultáneamente el tiempo total, el consumo energético y la estabilidad estructural intermedia. La función objetivo penaliza fuertemente secuencias que generen momentos de inercia elevados sobre la plataforma base.
 
-\begin{table}[h]
-\centering
-\caption{Comparación de algoritmos de planificación de secuencias evaluados}
+\begin{table}[!t]
+\caption{Comparación de Algoritmos de Planificación de Secuencias Evaluados}
 \label{tab:algoritmos_comparados}
-\begin{tabular}{lccc}
-\hline
-\textbf{Algoritmo} & \textbf{Tiempo Computacional} & \textbf{Optimalidad} & \textbf{Robustez a Perturbaciones} \\
-\hline
-A* Básico          & Bajo     & Media  & Baja  \\
-Genético Estándar  & Alto     & Alta   & Media \\
-Propuesto Híbrido  & Medio    & Alta   & Alta  \\
-\hline
-\end{tabular}
+\centering
+\footnotesize
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} l c c c @{}}
+\toprule
+\textbf{Algoritmo} & \shortstack{\textbf{Tiempo}\\\textbf{Computacional}} & \textbf{Optimalidad} & \shortstack{\textbf{Robustez a}\\\textbf{Perturbaciones}} \\
+\midrule
+A* Básico         & Bajo   & Media & Baja  \\
+Genético Estándar & Alto   & Alta  & Media \\
+Propuesto Híbrido & Medio  & Alta  & Alta  \\
+\bottomrule
+\end{tabular*}
 \end{table}
 
 \subsection{3.3 Control Híbrido y Evitación de Colisiones}

@@ -20,26 +20,20 @@ Estas aportaciones no pretenden resolver todos los problemas del campo, pero sí
 
 El resto del artículo se estructura de manera que facilite la comprensión progresiva de la propuesta. La Sección 2 revisa el estado del arte y antecedentes relevantes. La Sección 3 detalla la metodología propuesta, incluyendo arquitectura del sistema, algoritmos de planificación y el rol del gemelo digital. Posteriormente, la Sección 4 describe la implementación y entorno de simulación, mientras que la Sección 5 presenta los resultados cuantitativos y análisis de sensibilidad. La Sección 6 discute implicaciones, limitaciones y comparaciones con trabajos previos. Finalmente, la Sección 7 recoge conclusiones principales junto con líneas de investigación futura.
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=\linewidth]{fig1.png}
-\caption{Evolución cronológica de misiones clave de On-Orbit Servicing (OOS) y Assembly (OIRA), destacando hitos tecnológicos desde ETS-VII hasta proyectos actuales como OSAM-1.}
-\label{fig:evolucion_misiones}
-\end{figure}
+% Asegúrate de incluir \usepackage{booktabs} en el preámbulo de tu documento (antes de \begin{document})
 
-\begin{table}[h]
-\centering
-\caption{Comparación de enfoques de ensamblaje orbital versus terrestre}
+\begin{table}[!t]
+\caption{Comparación de Enfoques de Ensamblaje Orbital Versus Terrestre}
 \label{tab:comparacion_enfoques}
-\begin{tabular}{lcc}
-\hline
-\textbf{Criterio} & \textbf{Ensamblaje Terrestre} & \textbf{Ensamblaje In-Orbit} \\
-\hline
+\centering
+\begin{tabular}{p{2.6cm} c c}
+\toprule\textbf{Criterio} & \textbf{Ensamblaje Terrestre} & \textbf{Ensamblaje In-Orbit} \\
+\midrule
 Limitación de tamaño & Alta & Baja \\
 Flexibilidad de reparación & Muy baja & Alta \\
 Costo por kg en órbita & Elevado & Potencialmente menor \\
 Riesgo durante lanzamiento & Alto & Reducido \\
 Complejidad operativa & Media & Alta \\
-\hline
+\bottomrule
 \end{tabular}
 \end{table}
